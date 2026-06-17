@@ -1,0 +1,27 @@
+﻿Analyzing my_app...                                             
+
+warning - Unused import: 'package:flutter/material.dart' - lib\core\router\app_router.dart:1:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\screens\chatbot\chatbot_screen.dart:44:28 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\chatbot\chatbot_screen.dart:45:27 - avoid_print
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\dashboard\dashboard_screen.dart:335:13 - deprecated_member_use
+warning - The declaration '_LegendDot' isn't referenced - lib\screens\map\map_screen.dart:237:7 - unused_element
+
+flutter : 5 issues 
+found. (ran in 2.8s)
+At line:1 char:18
++ cd 'D:\my_app' ; 
+flutter analyze 2>&1 | 
+Out-File -FilePath 
+D:\my_app\ ...
++                  
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (5 issues foun   
+ d. (ran in 2.8s):S    
+tring) [], RemoteE    
+xception
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
